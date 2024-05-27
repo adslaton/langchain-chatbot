@@ -1,0 +1,20 @@
+{
+  "name": "langchain-chatbot",
+  "version": "1.0.0",
+  "main": "bot.ts",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node src/bot.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.12",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "@langchain/core": "^0.2.1",
+    "axios": "^1.7.2",
+    "langchain": "^0.2.2",
+    "tslib": "^2.6.2"
+  }
+}
